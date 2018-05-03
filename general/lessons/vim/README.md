@@ -38,6 +38,12 @@ The following commands are only usable in esc mode.
 
 "o" creates a new line with the same indentation as the old line. "shift+o" is the same but it creates the new line above the old one.
 
+"shift+G" goes to test bottom of the file.
+
+"e" goes to the next character that is before a space or a new line.
+
+"w" goes to the next character that is after a space or a new line.
+
 "v" goes into visual mode, highlighting characters, preparing them for other commands.
 
 The visual mode commands are:
