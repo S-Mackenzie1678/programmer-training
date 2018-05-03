@@ -20,11 +20,11 @@ There are many commands that you NEED to know. These are,
 
 and ":wqa" which is the same as :wq but for all open files.
 
-":tabe <filename>" opens a new file in a new "tab".
+":tabe <filename>" opens a <filename> in a new "tab".
 
 "gt" switches tabs in a left-to-right order by using in esc mode.
 
-":vsp <filename>" opens a new file in the same tab by having a vertical split down the middle. This is useful for .cpp file .h file pairs. To switch between these files, in esc mode, use alt + arrow key (depending on which way you want to go).
+":vsp <filename>" opens <filename> in the same tab by having a vertical split down the middle. This is useful for .cpp file .h file pairs. To switch between these files, in esc mode, use alt + arrow key (depending on which way you want to go).
 
 ":sp <filename>" is the same as :vsp but splits the screen horizontally. (It looks so much worse, don't use it).
 
