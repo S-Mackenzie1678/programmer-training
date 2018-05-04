@@ -1,20 +1,6 @@
 # Vim
 ##### Vim is a text editor that can be slightly hard to learn but has many useful shortcuts and is integrated with Terminal.
-## File commands
-* `vim <filename>` this opens <filename> in Vim. **NOTE:** this will create a new file if no such file exists. **NOTE**: this command requires filepath.
-* `:w` which saves the open file,
-* `:q!` which quits without saving,
-* `:wa` which saves all open files,
-* `:qa!` which quits all open files without saving,
-* `:wq:` which saves and closes the current file,
-* `:wqa` which is the same as :wq but for all open files.
-* `:tabe <filename>` opens <filename> in a new "tab".
-* `gt` switches tabs in a left-to-right order by using in esc mode.
-* `:vsp <filename>` opens a new file in the same tab by having a vertical split down the middle. This is useful for .cpp file .h file pairs. To switch between these files, in esc mode, use alt + arrow key (depending on which way you want to go). *Example:*
-\<img src=":vsp_example.png" width="500"\>
-* `:sm is a text editor that can be slightly hard to learn but has many useful shortcuts and is integrated with Terminal.
-
-## File commands
+## File Commands
 * `vim <filename>` this opens <filename> in Vim. **NOTE:** this will create a new file if no such file exists. **NOTE**: this command requires filepath.
 * `:w` which saves the open file,
 * `:q!` which quits without saving,
