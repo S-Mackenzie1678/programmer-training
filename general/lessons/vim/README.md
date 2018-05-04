@@ -2,7 +2,7 @@ Vim is a text editor that can be slightly hard to learn but has many useful shor
 
 To open a file in Vim, the command is 'vim <filename>'. NOTE: this also will create a new file if no such file exists. Be careful of that. The filename needs the file's path as well.
 
-When in Vim, you might try to type immidiately, but that won't work. To start typing, press i. To exit out of insert mode, press esc.
+When in Vim, you might try to type immediately, but that won't work. To start typing, press i. To exit out of insert mode, press esc.
 
 When not in a mode (ie esc has been pressed) commands are accessed by presing : (usually).
 
