@@ -3,7 +3,8 @@
 ## Syntax
 To include a moduled file, use
 ```python
-import <filename>
+import <directory.subdirectory...filename>
+###### Be advised that the . is in place of where a / might be intuative. Be careful.
 ```
 An example would be something like this
 ```python
@@ -17,6 +18,9 @@ import module
 print add_one(3)
 ```
 That will print 4 because of the import statement. Without that import statement, trying to ```add_one()``` won't work.
+
+## Libraries
+There's just one last thing. Some modules come standard with Python 3.6 and these are included using the exact same syntax, but do not require their filepath (because, of course, there isn't one). A list of libraries can be found [here](https://docs.python.org/3/py-modindex.html).
 
 ###### For times where things appear in <angle brackets>, the brackets should be excluded and what's in the brackets should be re    placed with a fit. Example:
 ```python
